@@ -26,3 +26,5 @@ end
 hookgamemenu(LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("GameMenus"))
 LocalPlayer:WaitForChild("PlayerGui").ChildAdded:Connect(hookgamemenu)
 logging.info("Waiting for robbery")
+
+--test to see if i need to do weird stuff each time
